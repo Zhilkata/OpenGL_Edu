@@ -20,7 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\GLFW\include\GLAD\glad.c" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="exercise1-2triangles.cpp" />
+    <ClCompile Include="exercise2-VAO_VBO.cpp" />
+    <ClCompile Include="exercise3-different_shaders.cpp" />
+    <ClCompile Include="first_triangle.cpp" />
+    <ClCompile Include="EBO_test.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
