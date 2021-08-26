@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\GLFW\include\GLAD\glad.c" />
     <ClCompile Include="blinking_triangle.cpp" />
     <ClCompile Include="exercise1-2triangles.cpp" />
     <ClCompile Include="exercise2-VAO_VBO.cpp" />
     <ClCompile Include="exercise3-different_shaders.cpp" />
     <ClCompile Include="EBO_test.cpp" />
+    <ClCompile Include="include\GLAD\glad.c" />
     <ClCompile Include="working.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -94,13 +94,13 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>C:\GLFW\include;C:\GLFW\lib-vc2019;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\GLFW\include\GLAD;C:\GLFW\include;C:\GLFW\lib-vc2019;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)include;$(ProjectDir)GLFW_lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)include\GLAD;$(ProjectDir)include;$(ProjectDir)GLFW_lib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <LibraryPath>C:\GLFW\include;C:\GLFW\lib-vc2019;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\GLFW\include\GLAD;C:\GLFW\include;C:\GLFW\lib-vc2019;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)include;$(ProjectDir)GLFW_lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)include\GLAD;$(ProjectDir)include;$(ProjectDir)GLFW_lib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -136,7 +136,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\GLFW\include\GLFW;C:\GLFW\include\GLAD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include\GLFW;$(ProjectDir)include\GLAD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,7 +152,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\GLFW\include\GLFW;C:\GLFW\include\GLAD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include\GLFW;$(ProjectDir)include\GLAD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
