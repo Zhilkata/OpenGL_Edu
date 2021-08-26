@@ -20,11 +20,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\GLFW\include\GLAD\glad.c" />
+    <ClCompile Include="blinking_triangle.cpp" />
     <ClCompile Include="exercise1-2triangles.cpp" />
     <ClCompile Include="exercise2-VAO_VBO.cpp" />
     <ClCompile Include="exercise3-different_shaders.cpp" />
-    <ClCompile Include="first_triangle.cpp" />
     <ClCompile Include="EBO_test.cpp" />
+    <ClCompile Include="spectrum.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.fs" />
+    <ClInclude Include="Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.vs" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
