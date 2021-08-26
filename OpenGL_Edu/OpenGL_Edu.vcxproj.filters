@@ -36,7 +36,7 @@
     <ClCompile Include="blinking_triangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="spectrum.cpp">
+    <ClCompile Include="working.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

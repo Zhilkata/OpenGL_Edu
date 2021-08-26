@@ -25,7 +25,7 @@
     <ClCompile Include="exercise2-VAO_VBO.cpp" />
     <ClCompile Include="exercise3-different_shaders.cpp" />
     <ClCompile Include="EBO_test.cpp" />
-    <ClCompile Include="spectrum.cpp" />
+    <ClCompile Include="working.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.fs" />
